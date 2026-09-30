@@ -7,7 +7,6 @@ cask "dockdoor-fork" do
   desc "Dock window previews, window switcher and Space Switcher"
   homepage "https://github.com/DoubleGremlin181/DockDoor/tree/space-switcher"
 
-  auto_updates true
   conflicts_with cask: "dockdoor"
   depends_on macos: :ventura
 
